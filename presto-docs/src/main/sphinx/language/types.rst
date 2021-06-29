@@ -257,6 +257,19 @@ Network Address
 
     Examples: ``IPPREFIX '10.0.1.0/24'``, ``IPPREFIX '2001:db8::/48'``
 
+UUID
+----
+
+.. _uuid_type:
+
+``UUID``
+^^^^^^^^
+
+    This type represents a UUID (Universally Unique IDentifier), also known as a
+    GUID (Globally Unique IDentifier), using the format defined in :rfc:`4122`.
+
+    Example: ``UUID '12151fd2-7586-11e9-8f9e-2a86e4085a59'``
+
 HyperLogLog
 -----------
 
